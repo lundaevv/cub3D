@@ -1,0 +1,3 @@
+/*
+centralize error handling
+*/
