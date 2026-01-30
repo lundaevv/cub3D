@@ -3,6 +3,9 @@ should be the only header most .c files include,
 unless a module is intentionally isolated.
 */
 
+/*
+enum texture id
+*/
 
 #ifndef MAIN_H
 # define MAIN_H

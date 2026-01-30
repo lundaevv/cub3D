@@ -10,11 +10,10 @@ destroy() should free everything, even if parse failed.
 */ 
 int	main(int argc, char **argv)
 {
-	(void)argc;
-	(void)argv;
-	int errno;
+	t_game	game_dt;
+	int	error;
 
-	init(&errno);
+	init(&game_dt, &errno);
 	if (!errno)
 	{
 		parse(&errno);
