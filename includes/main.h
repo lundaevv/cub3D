@@ -23,6 +23,4 @@ unless a module is intentionally isolated.
 # include "utils.h"
 # include "libft.h"
 
-int	cub3d_run(int argc, char **argv);
-
 #endif
